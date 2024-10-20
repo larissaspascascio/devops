@@ -9,4 +9,4 @@ services:
     build: db/.
     # keep port forwarding so we can test app locally without docker
     ports:
-      - "33060:3306"
+      - "8080:8080"
